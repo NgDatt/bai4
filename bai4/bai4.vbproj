@@ -51,6 +51,7 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
@@ -84,6 +85,12 @@
       <DependentUpon>KhachHang.vb</DependentUpon>
     </Compile>
     <Compile Include="KhachHang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoaiSanPham.Designer.vb">
+      <DependentUpon>LoaiSanPham.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoaiSanPham.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -121,6 +128,9 @@
     <EmbeddedResource Include="KhachHang.resx">
       <DependentUpon>KhachHang.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LoaiSanPham.resx">
+      <DependentUpon>LoaiSanPham.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -145,6 +155,24 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\one.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\one1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallspc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hinh-nen-ke-sach-dep-nhat_021056427 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
