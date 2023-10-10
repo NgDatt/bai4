@@ -74,12 +74,14 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="D:\bao\Form1.vb">
       <SubType>Form</SubType>
+      <Link>Form1.vb</Link>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
+    <Compile Include="D:\bao\Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
+      <Link>Form1.Designer.vb</Link>
     </Compile>
     <Compile Include="KhachHang.Designer.vb">
       <DependentUpon>KhachHang.vb</DependentUpon>
@@ -122,8 +124,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="D:\bao\Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+      <Link>Form1.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="KhachHang.resx">
       <DependentUpon>KhachHang.vb</DependentUpon>
